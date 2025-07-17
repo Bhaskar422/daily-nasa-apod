@@ -58,25 +58,19 @@ const updateReadme = async (data: APODData) => {
   const formattedDate = `${day}${daySuffix} ${currendDate.toLocaleString("default", {
     month: "long",
   })} ${currendDate.getFullYear()}`;
-  const readme = `# NASA Astronomy Picture of the Day (APOD) for - ${formattedDate}
+  const timestamp = new Date().toLocaleString();
+  const readme = `
+# NASA Astronomy Picture of the Day (APOD) for - ${formattedDate}
+## ${data.title}
 
-        ## ${data.title}
+![${data.title}](${data.url})
 
-        ![${data.title}](${data.url})
+### Description
+${data.explanation}
 
-        ### Description
-        ${data.explanation}
-
-        ---
-
-        *Last updated: ${new Date().toLocaleDateString()}*
-
-        > This README is automatically updated with the latest NASA Astronomy Picture of the Day.
-        > 
-        > **High Resolution Image:** [View Full Size](${data.hdurl})
-        > 
-        > **Media Type:** ${data.media_type}
-        `;
+---
+> _Last Updated: ${timestamp} (in GMT)_
+`;
   await writeFile("README.md", readme, "utf-8");
 };
 

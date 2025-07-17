@@ -1,15 +1,11 @@
-# nasa-apod
 
-To install dependencies:
+# NASA Astronomy Picture of the Day (APOD) for - 17th July 2025
+## 3I/ATLAS
 
-```bash
-bun install
-```
+![3I/ATLAS](https://apod.nasa.gov/apod/image/2507/noirlab2522a_3i1056.jpg)
 
-To run:
+### Description
+Discovered on July 1 with the NASA-funded ATLAS (Asteroid Terrestrial-impact Last Alert, System) survey telescope in Rio Hurtado, Chile, 3I/ATLAS is so designated as the third known interstellar object to pass through our Solar System It follows 1I/ʻOumuamua in 2017 and the comet 2I/Borisov in 2019.  Also known as C/2025 N1, 3I/ATLAS is clearly a comet, its diffuse cometary coma, a cloud of gas and dust surrounding an icy nucleus, is easily seen in these images from the large Gemini North telescope on Maunakea, Hawai‘i. The left panel tracks the comet as it moves across the sky against fixed background stars in successive exposures. Three different filters were used, shown in red, green, and blue. In the right panel the multiple exposures are registered and combined to form a single image of the comet. The comet's interstellar origin is also clear from its orbit, determined to be an eccentric, highly hyperbolic orbit that does not loop back around the Sun and will return 3I/ATLAS to interstellar space. Not a threat to planet Earth, the inbound interstellar interloper is now within the Jupiter's orbital distance of the Sun, while its closest approach to the Sun will bring it just within the orbital distance of Mars.
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+---
+> _Last Updated: 7/17/2025, 6:59:07 PM (in GMT)_
