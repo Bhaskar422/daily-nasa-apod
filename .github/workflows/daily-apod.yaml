@@ -1,0 +1,32 @@
+name: APOD Update Daily
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Run Dev Build
+        run: bun run dev
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+
+      - name: Update Daily APOD
+        run: |
+          bun run dev
+          git config --global user.email "saibhaskar421@gmail.com"
+          git config --global user.name "Bhaskar"
+          git add README.md
+          git commit -m "Updated README on $(TZ=Asia/Kolkata date + '%Y-%m-%d %H:%M')"
+          git push origin main
