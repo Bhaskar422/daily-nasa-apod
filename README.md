@@ -1,5 +1,5 @@
 
-# NASA Astronomy Picture of the Day (APOD) for - 30th July 2025
+# NASA Astronomy Picture of the Day (APOD) for - 31st July 2025
 ## undefined
 
 ![undefined](undefined)
@@ -8,4 +8,4 @@
 undefined
 
 ---
-> _Last Updated: 7/30/2025, 3:27:14 AM (in GMT)_
+> _Last Updated: 7/31/2025, 3:25:48 AM (in GMT)_
