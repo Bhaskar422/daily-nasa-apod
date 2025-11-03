@@ -1,5 +1,5 @@
 
-# NASA Astronomy Picture of the Day (APOD) for - 2nd November 2025
+# NASA Astronomy Picture of the Day (APOD) for - 3rd November 2025
 ## undefined
 
 ![undefined](undefined)
@@ -8,4 +8,4 @@
 undefined
 
 ---
-> _Last Updated: 11/2/2025, 3:07:35 AM (in GMT)_
+> _Last Updated: 11/3/2025, 3:09:31 AM (in GMT)_
